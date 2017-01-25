@@ -1,0 +1,5 @@
+README
+
+A mock camera that one can use it to publlish video source to a specified topic.
+
+The topic name and the file path can be specified in the launch file.
