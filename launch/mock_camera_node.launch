@@ -1,0 +1,6 @@
+<launch>
+	<param name="topic"  value="/inputRoi" />
+	<param name="file_path"  value="/home/paul/Downloads/FullBuoy.mpg" />
+	<node pkg="mock_camera" type="mock_camera" name="mock_camera" output="screen" />
+	<node pkg="mock_camera" type="mock_camera_test_subscriber" name="mock_camera_test_subscriber" output="screen" />
+</launch>
