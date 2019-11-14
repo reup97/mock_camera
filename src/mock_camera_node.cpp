@@ -12,7 +12,7 @@
 #include <cv_bridge/cv_bridge.h>
 #include <string>
 
-h
+
 /**
  * check if a given string is a number
  * @param  s reference to the string need to be checked
